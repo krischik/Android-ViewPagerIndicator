@@ -14,7 +14,7 @@
     <packaging>pom</packaging>
     <version>2.4.2</version>
 
-    <name>Android-ViewPagerIndicator (Parent)</name>
+    <name>Android-ViewPagerIndicator Parent</name>
     <description>Android library for.</description>
     <url>https://github.com/JakeWharton/Android-ViewPagerIndicator</url>
     <inceptionYear>2011</inceptionYear>
@@ -92,13 +92,22 @@
 
             <dependency>
                 <groupId>android.support</groupId>
-                <artifactId>android.support</artifactId>
+                <artifactId>compatibility-v4</artifactId>
                 <version>${android.support.version}</version>
                 <scope>compile</scope>
                 <type>jar</type>
             </dependency>
         </dependencies>
     </dependencyManagement>
+  <!-- Repositories –––––––––––––––––––––––––––––––––––––––––– {{{1 ––––– -->
+  <repositories>
+    <repository>
+      <id>UIQ3-Library</id>
+      <name>UIQ3-Library</name>
+      <url>http://uiq3.sourceforge.net/Repository</url>
+    </repository>
+  </repositories>
+  <!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––– }}}1 ––––– -->
     <distributionManagement>
         <repository>
             <id>${repo.id}</id>

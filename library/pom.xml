@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>library</artifactId>
-	<name>Android-ViewPagerIndicator</name>
+	<name>Android-ViewPagerIndicator Library</name>
 	<packaging>apklib</packaging>
 
 	<parent>
@@ -29,7 +29,8 @@
                 </dependency>
                 <dependency>
                     <groupId>android.support</groupId>
-                    <artifactId>android.support</artifactId>
+                    <artifactId>compatibility-v4</artifactId>
+                    <type>jar</type>
                  </dependency>
 	</dependencies>
 
