@@ -23,7 +23,7 @@ GOTO :eof
 import scala.sys.process._
 
 "git" :: "pull" :: "https://github.com/JakeWharton/Android-ViewPagerIndicator.git"  :: Nil !;
-"git" :: "pull" :: "https://github.com/krischik/Android-ViewPagerIndicator.git"	    :: Nil !;
+"git" :: "pull" :: Nil !;
 "git" :: "push" :: Nil !;
 
 // vim: set wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab :
