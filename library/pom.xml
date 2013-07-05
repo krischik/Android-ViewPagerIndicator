@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<artifactId>library</artifactId>
-	<name>Android-ViewPagerIndicator</name>
+  	<name>ViewPagerIndicator — library</name>
 	<packaging>apklib</packaging>
 
 	<parent>
@@ -13,7 +13,7 @@
                 <version>2.4.2</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-	
+
 	<dependencies>
               <!--
               – You need Android-Deployer for this dependency to work. Don't search, there is

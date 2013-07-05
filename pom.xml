@@ -13,8 +13,7 @@
     <artifactId>parent</artifactId>
     <packaging>pom</packaging>
     <version>2.4.2</version>
-
-    <name>Android-ViewPagerIndicator (Parent)</name>
+    <name>ViewPagerIndicator — parent</name>
     <description>Android library for.</description>
     <url>https://github.com/JakeWharton/Android-ViewPagerIndicator</url>
     <inceptionYear>2011</inceptionYear>
@@ -212,7 +211,7 @@
         </plugins>
     </build>
 
-<!-- Repositories –––––––––––––––––––––––––––––––––––––––––– {{{1 ––––– -->
+  <!-- Repositories –––––––––––––––––––––––––––––––––––––––––– {{{1 ––––– -->
   <repositories>
     <repository>
       <id>Noser-Library</id>
@@ -232,7 +231,7 @@
       <name>Codehaus repository</name>
     </pluginRepository>
   </pluginRepositories>
-<!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––– }}}1 ––––– -->
+  <!-- ––––––––––––––––––––––––––––––––––––––––––––––––––––––– }}}1 ––––– -->
   <!-- Profiles –––––––––––––––––––––––––––––––––––––––––––––– {{{1 ––––– -->
   <profiles>
     <!-- Release ––––––––––––––––––––––––––––––––––––––––––––––– {{{2 ––––– -->
