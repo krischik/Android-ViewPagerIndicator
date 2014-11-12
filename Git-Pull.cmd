@@ -23,7 +23,7 @@ GOTO :eof
 import scala.sys.process._
 
 ("git" :: "pull" :: "https://github.com/JakeWharton/Android-ViewPagerIndicator.git"  :: Nil).!
-("git" :: "pull" :: "origin" :: "dev" :: Nil).!
+("git" :: "pull" :: "origin" :: "2.4.4" :: Nil).!
 
 // vim: set wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab :
 // vim: set textwidth=0 filetype=scala foldmethod=marker nospell :

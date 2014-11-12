@@ -12,7 +12,7 @@
     <groupId>com.viewpagerindicator</groupId>
     <artifactId>Viewpagerindicator</artifactId>
     <packaging>pom</packaging>
-    <version>2.4.3</version>
+    <version>2.4.4</version>
     <name>ViewPagerIndicator — parent</name>
     <description>Android library for.</description>
     <url>https://github.com/JakeWharton/Android-ViewPagerIndicator</url>
@@ -65,10 +65,10 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
         <java.version>1.6</java.version>
-        <android.version>4.4_r1</android.version>
+        <android.version>4.4.2_r2</android.version>
         <android.platform>19</android.platform>
         <android.support.version>19</android.support.version>
-        <android-maven.version>3.7.0</android-maven.version>
+        <android-maven.version>3.8.2</android-maven.version>
     </properties>
 
     <dependencyManagement>
@@ -113,12 +113,12 @@
           <extension>
             <groupId>org.apache.maven.wagon</groupId>
             <artifactId>wagon-ssh</artifactId>
-            <version>2.3</version>
+            <version>2.4</version>
           </extension>
           <extension>
             <groupId>org.apache.maven.wagon</groupId>
             <artifactId>wagon-scm</artifactId>
-            <version>2.3</version>
+            <version>2.4</version>
           </extension>
           <extension>
             <groupId>org.jvnet.wagon-svn</groupId>
@@ -133,7 +133,7 @@
           <extension>
             <groupId>org.apache.maven.scm</groupId>
             <artifactId>maven-scm-provider-svnexe</artifactId>
-            <version>1.8</version>
+            <version>1.8.1</version>
           </extension>
         </extensions>
         <pluginManagement>
@@ -141,7 +141,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <version>2.3.2</version>
+                    <version>3.1</version>
                     <configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
@@ -164,7 +164,7 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
-                    <version>2.6</version>
+                    <version>2.10</version>
                     <configuration>
                         <failsOnError>true</failsOnError>
                     </configuration>
@@ -214,9 +214,9 @@
   <!-- Repositories –––––––––––––––––––––––––––––––––––––––––– {{{1 ––––– -->
   <repositories>
     <repository>
-      <id>Noser-Library</id>
-      <name>Noser-Library</name>
-      <url>https://ps.noser.com/svn/a20999002006/04_Software/repository</url>
+      <id>UIQ3-Library</id>
+      <name>UIQ3-Library</name>
+      <url>http://uiq3.sourceforge.net/Repository</url>
     </repository>
     <repository>
       <id>codehaus.org</id>
