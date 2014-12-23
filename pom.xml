@@ -18,6 +18,10 @@
     <url>https://github.com/JakeWharton/Android-ViewPagerIndicator</url>
     <inceptionYear>2011</inceptionYear>
 
+    <prerequisites>
+      <maven>3.2.3</maven>
+    </prerequisites>
+
     <modules>
         <module>library</module>
         <module>sample</module>

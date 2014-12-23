@@ -26,21 +26,7 @@
 local Download_Server="krischik,uiq3@shell.sourceforge.net"
 local Scala_Library="${WORK}/Repositories/Local/net/sourceforge/uiq3/Calculator-Script/6.2.0/Calculator-Script-6.2.0.jar"
 
-ssh-add					\
-    /Users/martin/.ssh/id_rsa		\
-    /Users/martin/.ssh/id_dsa		\
-    /Users/martin/.ssh/Martin_Krischik_SF
+scala -classpath ${Scala_Library} -save Maven-Check.cmd
 
-scala -classpath ${Scala_Library} -save Maven-Deploy.cmd
-
-pushd "/Work/HomePage/uiq3/htdocs"
-    rsync						\
-	--archive					\
-	--delete					\
-	--verbose					\
-	--keep-dirlinks					\
-	"Repository"					\
-	"krischik,uiq3@web.sourceforge.net:htdocs"
-popd
 # vim: set wrap tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab :
 # vim: set textwidth=0 filetype=zsh foldmethod=marker nospell :
